@@ -10,7 +10,7 @@ public:
         this->name = name;    
     }
 
-    virtual void printInfo() {
+    void printInfo() {
         cout << "Name:\t" << name << endl;
         cout << "Price:\t" << price << endl;        
     }
